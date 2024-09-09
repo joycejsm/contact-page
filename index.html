@@ -14,28 +14,32 @@
 
     <div class="titles">
         <h1>Interested in our business pricing?</h1>
-        <h5>Fill out the form to view details and we’ll contact you as soon as possible.</h5>
+        <h2>Fill out the form to view details and we’ll contact you as soon as possible.</h2>
     </div>
     <div class="container-form">
     
         <form action="#">
-            <label for="name">Name</label>
-            <input type="text" name="iname" id="name" placeholder="Ethan Johnson">
-            <label for="email">Company Email</label>
-            <input type="email" name="iemail" id="email" placeholder="ethan@johnson.com">
-            <label for="empoyee-select">Company Size</label>
-            <select name="" id="empoyee-select">
-                <option value="option-1">0-49 employees
-                </option>
-                <option value="option-2" selected>50-100 employees</option>
-            </select>
-            <label for="subject">Subject</label>
-            <select name="isubject" id="subject"> Subject
-                <option value="" selected>Building Landing Pages
-                </option>
-                <option value="">Lorem ipsum dolor
-                </option>
-            </select>
+            <div class="top-form">
+                <label for="name">Name</label>
+                <input type="text" name="iname" id="name" placeholder="Ethan Johnson">
+                <label for="email" class="email">Company Email</label>
+                <input type="email" name="iemail" id="email" placeholder="ethan@johnson.com">
+            </div>
+            <div class="middle-form">
+                <label for="employee-select">Company Size</label>
+                <select name="" id="empoyee-select">
+                    <option value="option-1">0-49 employees
+                    </option>
+                    <option value="option-2" selected>50-100 employees</option>
+                </select>
+                <label for="subject">Subject</label>
+                <select name="isubject" id="subject"> Subject
+                    <option value="" selected>Building Landing Pages
+                    </option>
+                    <option value="">Lorem ipsum dolor
+                    </option>
+                </select>
+            </div>
             <label for="message">Message</label>
             <textarea name="imessage" id="message" placeholder="50-100 employees"></textarea>
             <button>Contact Sales</button>
